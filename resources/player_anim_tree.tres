@@ -1,0 +1,103 @@
+[gd_resource type="AnimationNodeBlendTree" format=3]
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_oqxrn"]
+
+[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_mtxju"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0rykb"]
+animation = &"Crouch_Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_o6neq"]
+animation = &"Crouch_Fwd"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_n2da0"]
+min_space = 0.0
+snap = 0.01
+blend_point_0/node = SubResource("AnimationNodeAnimation_0rykb")
+blend_point_0/pos = 0.0
+blend_point_0/name = &"0"
+blend_point_1/node = SubResource("AnimationNodeAnimation_o6neq")
+blend_point_1/pos = 1.0
+blend_point_1/name = &"1"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_05l3n"]
+animation = &"Jump"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_u87la"]
+animation = &"Jump_Land"
+
+[sub_resource type="AnimationNodeOneShot" id="AnimationNodeOneShot_w8hbr"]
+fadein_time = 0.05
+fadeout_time = 0.25
+
+[sub_resource type="AnimationNodeTimeSeek" id="AnimationNodeTimeSeek_0t4m3"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_a1wd6"]
+animation = &"Jump_Start"
+
+[sub_resource type="AnimationNodeOneShot" id="AnimationNodeOneShot_qkoev"]
+fadein_time = 0.1
+fadeout_time = 0.2
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4mdl8"]
+animation = &"Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_m2e8j"]
+animation = &"Walk"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_30ok0"]
+animation = &"Jog_Fwd"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_dckay"]
+animation = &"Sprint"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_0qmnr"]
+min_space = 0.0
+max_space = 3.0
+snap = 0.01
+blend_point_0/node = SubResource("AnimationNodeAnimation_4mdl8")
+blend_point_0/pos = 0.0
+blend_point_0/name = &"0"
+blend_point_1/node = SubResource("AnimationNodeAnimation_m2e8j")
+blend_point_1/pos = 1.0
+blend_point_1/name = &"1"
+blend_point_2/node = SubResource("AnimationNodeAnimation_30ok0")
+blend_point_2/pos = 2.0
+blend_point_2/name = &"2"
+blend_point_3/node = SubResource("AnimationNodeAnimation_dckay")
+blend_point_3/pos = 3.0
+blend_point_3/name = &"3"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nqupm"]
+animation = &"Roll"
+
+[sub_resource type="AnimationNodeOneShot" id="AnimationNodeOneShot_p06pf"]
+fadein_time = 0.1
+fadeout_time = 0.2
+
+[resource]
+nodes/Locomotion/node = SubResource("AnimationNodeBlendSpace1D_0qmnr")
+nodes/Locomotion/position = Vector2(-200, -200)
+nodes/CrouchLoco/node = SubResource("AnimationNodeBlendSpace1D_n2da0")
+nodes/CrouchLoco/position = Vector2(-200, -50)
+nodes/CrouchBlend/node = SubResource("AnimationNodeBlend2_mtxju")
+nodes/CrouchBlend/position = Vector2(50, -125)
+nodes/JumpAnim/node = SubResource("AnimationNodeAnimation_05l3n")
+nodes/JumpAnim/position = Vector2(-200, 100)
+nodes/JumpSeek/node = SubResource("AnimationNodeTimeSeek_0t4m3")
+nodes/JumpSeek/position = Vector2(-50, 100)
+nodes/AirBlend/node = SubResource("AnimationNodeBlend2_oqxrn")
+nodes/AirBlend/position = Vector2(250, -50)
+nodes/JumpStartAnim/node = SubResource("AnimationNodeAnimation_a1wd6")
+nodes/JumpStartAnim/position = Vector2(250, 200)
+nodes/JumpStartShot/node = SubResource("AnimationNodeOneShot_qkoev")
+nodes/JumpStartShot/position = Vector2(450, 25)
+nodes/JumpLandAnim/node = SubResource("AnimationNodeAnimation_u87la")
+nodes/JumpLandAnim/position = Vector2(450, 250)
+nodes/JumpLandShot/node = SubResource("AnimationNodeOneShot_w8hbr")
+nodes/JumpLandShot/position = Vector2(650, 75)
+nodes/RollAnim/node = SubResource("AnimationNodeAnimation_nqupm")
+nodes/RollAnim/position = Vector2(650, 300)
+nodes/RollShot/node = SubResource("AnimationNodeOneShot_p06pf")
+nodes/RollShot/position = Vector2(850, 125)
+node_connections = [&"output", 0, &"RollShot", &"CrouchBlend", 0, &"Locomotion", &"CrouchBlend", 1, &"CrouchLoco", &"JumpSeek", 0, &"JumpAnim", &"AirBlend", 0, &"CrouchBlend", &"AirBlend", 1, &"JumpSeek", &"JumpStartShot", 0, &"AirBlend", &"JumpStartShot", 1, &"JumpStartAnim", &"JumpLandShot", 0, &"JumpStartShot", &"JumpLandShot", 1, &"JumpLandAnim", &"RollShot", 0, &"JumpLandShot", &"RollShot", 1, &"RollAnim"]
