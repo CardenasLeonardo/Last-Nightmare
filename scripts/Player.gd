@@ -11,7 +11,7 @@ extends CharacterBody3D
 ## - Toque simple en el aire -> segundo salto (doble salto), inmediato.
 ## - Mantener presionado tras agotar el doble salto mientras caes -> planeo (caída lenta).
 
-@export var walk_speed: float = 2
+@export var walk_speed: float = 0.7
 @export var run_speed: float = 10
 @export var crouch_speed: float = 1.2
 ## Se recalculan automáticamente en _ready() a partir de las Proporciones
@@ -242,6 +242,15 @@ const TRESSFX_HEAD_Y_IN_DEMO := 0.9  # altura de la cabeza en el rig original de
 @onready var anim_player: AnimationPlayer = $CharacterMesh/AnimationPlayer
 @onready var collision_shape: CollisionShape3D = $CollisionShape3D
 
+@export_group("Apariencia")
+@export var show_clothes: bool = false   # suéter
+@export var show_eyes: bool = false      # quads de ojos del pelo
+
+@export_group("IK")
+## Todas las constantes de la caminata viven en scripts/GaitTuning.gd (se editan aquí en el Inspector).
+@export var ik_tuning: GaitTuning = GaitTuning.new()
+var player_ik: PlayerIK
+
 var measured_head_y: float = 0.0   # altura (Y local) del hueso Head ya escalado, medida en _sync_body_to_proportions
 
 var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
@@ -296,7 +305,23 @@ func _ready() -> void:
 	_setup_tressfx_hair()
 	_setup_toon_hair()
 	_setup_face_shadow()
-	_setup_sweater()
+	if show_clothes:
+		_setup_sweater()
+	_setup_ik()
+
+## Crea la IK de pies/manos/cabeza y re-sincroniza el suéter cuando las IK
+## terminan de actualizar el esqueleto (si no, la manga iría un frame atrás).
+func _setup_ik() -> void:
+	player_ik = PlayerIK.new()
+	add_child(player_ik)
+	player_ik.setup(self, skeleton)
+	skeleton.skeleton_updated.connect(_on_skeleton_updated)
+
+func _on_skeleton_updated() -> void:
+	if sweater_skeleton == null:
+		return
+	_sync_sweater_skeleton()
+	_drape_sweater_sleeves()
 
 ## El mesh actual (Mannequin_F, del pack UAL2) no trae animaciones propias:
 ## viene pensado para usarse con las librerías de UAL1/UAL2, que comparten
@@ -1026,6 +1051,8 @@ func _setup_eyes(hair_root: Node) -> void:
 	var eye_l := hair_root.find_child("EyeLeft", true, false) as MeshInstance3D
 	if eye_r == null or eye_l == null:
 		return
+	eye_r.visible = show_eyes
+	eye_l.visible = show_eyes
 	var scale_basis := Basis().scaled(Vector3.ONE * eye_scale)
 	eye_r.transform = Transform3D(scale_basis, Vector3(eye_separation * 0.5, eye_height, eye_forward))
 	eye_l.transform = Transform3D(scale_basis, Vector3(-eye_separation * 0.5, eye_height, eye_forward))

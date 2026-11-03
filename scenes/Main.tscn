@@ -27,7 +27,7 @@ size = Vector3(30, 1, 30)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_player"]
 radius = 0.4
-height = 1.8
+height = 1.8243164
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_zone"]
 size = Vector3(4, 3, 4)
@@ -55,7 +55,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, -6)
 script = ExtResource("1_player")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player" unique_id=206165968]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.91215813, 0)
 shape = SubResource("CapsuleShape3D_player")
 
 [node name="CharacterMesh" parent="Player" unique_id=651067981 instance=ExtResource("3_mannequin")]

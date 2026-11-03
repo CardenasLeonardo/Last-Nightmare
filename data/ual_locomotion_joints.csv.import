@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c7qrnpalwcav0"
+
+[deps]
+
+files=["res://data/ual_locomotion_joints.length.translation", "res://data/ual_locomotion_joints.t.translation", "res://data/ual_locomotion_joints.bone.translation", "res://data/ual_locomotion_joints.qx.translation", "res://data/ual_locomotion_joints.qy.translation", "res://data/ual_locomotion_joints.qz.translation", "res://data/ual_locomotion_joints.qw.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.flex.translation", "res://data/ual_locomotion_joints.gx.translation", "res://data/ual_locomotion_joints.gy.translation", "res://data/ual_locomotion_joints.gz.translation"]
+
+source_file="res://data/ual_locomotion_joints.csv"
+dest_files=["res://data/ual_locomotion_joints.length.translation", "res://data/ual_locomotion_joints.t.translation", "res://data/ual_locomotion_joints.bone.translation", "res://data/ual_locomotion_joints.qx.translation", "res://data/ual_locomotion_joints.qy.translation", "res://data/ual_locomotion_joints.qz.translation", "res://data/ual_locomotion_joints.qw.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.euler.translation", "res://data/ual_locomotion_joints.flex.translation", "res://data/ual_locomotion_joints.gx.translation", "res://data/ual_locomotion_joints.gy.translation", "res://data/ual_locomotion_joints.gz.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

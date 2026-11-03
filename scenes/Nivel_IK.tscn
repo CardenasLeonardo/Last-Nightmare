@@ -1,0 +1,1632 @@
+[gd_scene format=3]
+
+[sub_resource type="StandardMaterial3D" id="Mat_Piedra"]
+albedo_color = Color(0.55, 0.5, 0.45, 1)
+roughness = 0.9
+
+[sub_resource type="CylinderShape3D" id="S1"]
+radius = 1.300
+height = 7.600
+
+[sub_resource type="CylinderMesh" id="M1"]
+material = SubResource("Mat_Piedra")
+top_radius = 1.300
+bottom_radius = 1.300
+height = 7.600
+
+[sub_resource type="BoxShape3D" id="S2"]
+size = Vector3(3.0000, 0.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M2"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S3"]
+size = Vector3(3.0000, 0.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M3"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S4"]
+size = Vector3(3.0000, 0.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M4"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S5"]
+size = Vector3(3.0000, 0.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M5"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S6"]
+size = Vector3(3.0000, 0.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M6"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S7"]
+size = Vector3(3.0000, 0.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M7"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S8"]
+size = Vector3(3.0000, 0.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M8"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S9"]
+size = Vector3(3.0000, 0.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M9"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S10"]
+size = Vector3(3.0000, 0.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M10"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S11"]
+size = Vector3(3.0000, 1.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M11"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S12"]
+size = Vector3(3.0000, 1.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M12"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S13"]
+size = Vector3(3.0000, 1.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M13"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S14"]
+size = Vector3(3.0000, 1.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M14"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S15"]
+size = Vector3(3.0000, 1.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M15"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S16"]
+size = Vector3(3.0000, 1.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M16"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S17"]
+size = Vector3(3.0000, 1.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M17"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S18"]
+size = Vector3(3.0000, 1.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M18"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S19"]
+size = Vector3(3.0000, 1.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M19"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S20"]
+size = Vector3(3.0000, 1.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M20"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 1.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S21"]
+size = Vector3(3.0000, 2.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M21"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S22"]
+size = Vector3(3.0000, 2.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M22"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S23"]
+size = Vector3(3.0000, 2.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M23"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S24"]
+size = Vector3(3.0000, 2.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M24"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S25"]
+size = Vector3(3.0000, 2.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M25"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S26"]
+size = Vector3(3.0000, 2.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M26"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S27"]
+size = Vector3(3.0000, 2.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M27"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S28"]
+size = Vector3(3.0000, 2.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M28"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S29"]
+size = Vector3(3.0000, 2.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M29"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S30"]
+size = Vector3(3.0000, 2.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M30"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 2.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S31"]
+size = Vector3(3.0000, 3.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M31"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S32"]
+size = Vector3(3.0000, 3.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M32"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S33"]
+size = Vector3(3.0000, 3.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M33"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S34"]
+size = Vector3(3.0000, 3.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M34"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S35"]
+size = Vector3(3.0000, 3.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M35"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S36"]
+size = Vector3(3.0000, 3.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M36"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S37"]
+size = Vector3(3.0000, 3.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M37"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S38"]
+size = Vector3(3.0000, 3.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M38"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S39"]
+size = Vector3(3.0000, 3.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M39"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S40"]
+size = Vector3(3.0000, 3.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M40"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 3.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S41"]
+size = Vector3(3.0000, 4.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M41"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S42"]
+size = Vector3(3.0000, 4.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M42"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S43"]
+size = Vector3(3.0000, 4.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M43"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S44"]
+size = Vector3(3.0000, 4.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M44"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S45"]
+size = Vector3(3.0000, 4.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M45"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S46"]
+size = Vector3(3.0000, 4.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M46"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S47"]
+size = Vector3(3.0000, 4.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M47"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S48"]
+size = Vector3(3.0000, 4.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M48"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S49"]
+size = Vector3(3.0000, 4.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M49"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S50"]
+size = Vector3(3.0000, 4.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M50"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 4.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S51"]
+size = Vector3(3.0000, 5.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M51"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S52"]
+size = Vector3(3.0000, 5.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M52"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S53"]
+size = Vector3(3.0000, 5.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M53"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S54"]
+size = Vector3(3.0000, 5.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M54"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S55"]
+size = Vector3(3.0000, 5.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M55"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S56"]
+size = Vector3(3.0000, 5.5000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M56"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.5000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S57"]
+size = Vector3(3.0000, 5.6000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M57"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.6000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S58"]
+size = Vector3(3.0000, 5.7000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M58"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.7000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S59"]
+size = Vector3(3.0000, 5.8000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M59"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.8000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S60"]
+size = Vector3(3.0000, 5.9000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M60"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 5.9000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S61"]
+size = Vector3(3.0000, 6.0000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M61"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.0000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S62"]
+size = Vector3(3.0000, 6.1000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M62"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.1000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S63"]
+size = Vector3(3.0000, 6.2000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M63"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.2000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S64"]
+size = Vector3(3.0000, 6.3000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M64"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.3000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S65"]
+size = Vector3(3.0000, 6.4000, 0.5938)
+
+[sub_resource type="BoxMesh" id="M65"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.4000, 0.5938)
+
+[sub_resource type="BoxShape3D" id="S66"]
+size = Vector3(3.0000, 6.4000, 3.0000)
+
+[sub_resource type="BoxMesh" id="M66"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 6.4000, 3.0000)
+
+[sub_resource type="BoxShape3D" id="S67"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M67"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S68"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M68"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S69"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M69"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S70"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M70"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S71"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M71"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S72"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M72"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S73"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M73"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S74"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M74"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S75"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M75"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S76"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M76"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S77"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M77"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S78"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M78"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S79"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M79"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S80"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M80"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S81"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M81"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S82"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M82"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S83"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M83"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S84"]
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxMesh" id="M84"]
+material = SubResource("Mat_Piedra")
+size = Vector3(2.6000, 0.5000, 2.6000)
+
+[sub_resource type="BoxShape3D" id="S85"]
+size = Vector3(4.0000, 0.0400, 0.3500)
+
+[sub_resource type="BoxMesh" id="M85"]
+material = SubResource("Mat_Piedra")
+size = Vector3(4.0000, 0.0400, 0.3500)
+
+[sub_resource type="BoxShape3D" id="S86"]
+size = Vector3(4.0000, 0.0600, 0.3500)
+
+[sub_resource type="BoxMesh" id="M86"]
+material = SubResource("Mat_Piedra")
+size = Vector3(4.0000, 0.0600, 0.3500)
+
+[sub_resource type="BoxShape3D" id="S87"]
+size = Vector3(4.0000, 0.0800, 0.3500)
+
+[sub_resource type="BoxMesh" id="M87"]
+material = SubResource("Mat_Piedra")
+size = Vector3(4.0000, 0.0800, 0.3500)
+
+[sub_resource type="BoxShape3D" id="S88"]
+size = Vector3(4.0000, 0.1000, 0.3500)
+
+[sub_resource type="BoxMesh" id="M88"]
+material = SubResource("Mat_Piedra")
+size = Vector3(4.0000, 0.1000, 0.3500)
+
+[sub_resource type="BoxShape3D" id="S89"]
+size = Vector3(0.9000, 0.0604, 0.9000)
+
+[sub_resource type="BoxMesh" id="M89"]
+material = SubResource("Mat_Piedra")
+size = Vector3(0.9000, 0.0604, 0.9000)
+
+[sub_resource type="BoxShape3D" id="S90"]
+size = Vector3(0.9000, 0.0670, 0.9000)
+
+[sub_resource type="BoxMesh" id="M90"]
+material = SubResource("Mat_Piedra")
+size = Vector3(0.9000, 0.0670, 0.9000)
+
+[sub_resource type="BoxShape3D" id="S91"]
+size = Vector3(0.9000, 0.0500, 0.9000)
+
+[sub_resource type="BoxMesh" id="M91"]
+material = SubResource("Mat_Piedra")
+size = Vector3(0.9000, 0.0500, 0.9000)
+
+[sub_resource type="BoxShape3D" id="S92"]
+size = Vector3(0.9000, 0.0551, 0.9000)
+
+[sub_resource type="BoxMesh" id="M92"]
+material = SubResource("Mat_Piedra")
+size = Vector3(0.9000, 0.0551, 0.9000)
+
+[sub_resource type="BoxShape3D" id="S93"]
+size = Vector3(0.9000, 0.0513, 0.9000)
+
+[sub_resource type="BoxMesh" id="M93"]
+material = SubResource("Mat_Piedra")
+size = Vector3(0.9000, 0.0513, 0.9000)
+
+[sub_resource type="BoxShape3D" id="S94"]
+size = Vector3(3.0000, 0.0659, 0.6649)
+
+[sub_resource type="BoxMesh" id="M94"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.0659, 0.6649)
+
+[sub_resource type="BoxShape3D" id="S95"]
+size = Vector3(3.0000, 0.1405, 0.5716)
+
+[sub_resource type="BoxMesh" id="M95"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.1405, 0.5716)
+
+[sub_resource type="BoxShape3D" id="S96"]
+size = Vector3(3.0000, 0.2402, 0.7471)
+
+[sub_resource type="BoxMesh" id="M96"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.2402, 0.7471)
+
+[sub_resource type="BoxShape3D" id="S97"]
+size = Vector3(3.0000, 0.3037, 0.6193)
+
+[sub_resource type="BoxMesh" id="M97"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.3037, 0.6193)
+
+[sub_resource type="BoxShape3D" id="S98"]
+size = Vector3(3.0000, 0.3743, 0.5699)
+
+[sub_resource type="BoxMesh" id="M98"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.3743, 0.5699)
+
+[sub_resource type="BoxShape3D" id="S99"]
+size = Vector3(3.0000, 0.4352, 0.5065)
+
+[sub_resource type="BoxMesh" id="M99"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.4352, 0.5065)
+
+[sub_resource type="BoxShape3D" id="S100"]
+size = Vector3(3.0000, 0.5010, 0.6349)
+
+[sub_resource type="BoxMesh" id="M100"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.5010, 0.6349)
+
+[sub_resource type="BoxShape3D" id="S101"]
+size = Vector3(3.0000, 0.5822, 0.4595)
+
+[sub_resource type="BoxMesh" id="M101"]
+material = SubResource("Mat_Piedra")
+size = Vector3(3.0000, 0.5822, 0.4595)
+
+[node name="NivelIK" type="Node3D"]
+
+[node name="Caracol" type="Node3D" parent="."]
+
+[node name="Pilar" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, -8.0000, 4.3000, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Pilar"]
+shape = SubResource("S1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Pilar"]
+mesh = SubResource("M1")
+
+[node name="Peldano_01" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, -5.2000, 0.5500, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_01"]
+shape = SubResource("S2")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_01"]
+mesh = SubResource("M2")
+
+[node name="Peldano_02" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.98079, 0.00000, 0.19509, 0.00000, 1.00000, 0.00000, -0.19509, 0.00000, 0.98079, -5.2538, 0.6000, 9.5463)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_02"]
+shape = SubResource("S3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_02"]
+mesh = SubResource("M3")
+
+[node name="Peldano_03" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.92388, 0.00000, 0.38268, 0.00000, 1.00000, 0.00000, -0.38268, 0.00000, 0.92388, -5.4131, 0.6500, 10.0715)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_03"]
+shape = SubResource("S4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_03"]
+mesh = SubResource("M4")
+
+[node name="Peldano_04" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.83147, 0.00000, 0.55557, 0.00000, 1.00000, 0.00000, -0.55557, 0.00000, 0.83147, -5.6719, 0.7000, 10.5556)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_04"]
+shape = SubResource("S5")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_04"]
+mesh = SubResource("M5")
+
+[node name="Peldano_05" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.70711, 0.00000, 0.70711, 0.00000, 1.00000, 0.00000, -0.70711, 0.00000, 0.70711, -6.0201, 0.7500, 10.9799)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_05"]
+shape = SubResource("S6")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_05"]
+mesh = SubResource("M6")
+
+[node name="Peldano_06" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.55557, 0.00000, 0.83147, 0.00000, 1.00000, 0.00000, -0.83147, 0.00000, 0.55557, -6.4444, 0.8000, 11.3281)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_06"]
+shape = SubResource("S7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_06"]
+mesh = SubResource("M7")
+
+[node name="Peldano_07" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.38268, 0.00000, 0.92388, 0.00000, 1.00000, 0.00000, -0.92388, 0.00000, 0.38268, -6.9285, 0.8500, 11.5869)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_07"]
+shape = SubResource("S8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_07"]
+mesh = SubResource("M8")
+
+[node name="Peldano_08" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.19509, 0.00000, 0.98079, 0.00000, 1.00000, 0.00000, -0.98079, 0.00000, 0.19509, -7.4537, 0.9000, 11.7462)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_08"]
+shape = SubResource("S9")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_08"]
+mesh = SubResource("M9")
+
+[node name="Peldano_09" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.00000, 0.00000, 1.00000, 0.00000, 1.00000, 0.00000, -1.00000, 0.00000, 0.00000, -8.0000, 0.9500, 11.8000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_09"]
+shape = SubResource("S10")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_09"]
+mesh = SubResource("M10")
+
+[node name="Peldano_10" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.19509, 0.00000, 0.98079, 0.00000, 1.00000, 0.00000, -0.98079, 0.00000, -0.19509, -8.5463, 1.0000, 11.7462)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_10"]
+shape = SubResource("S11")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_10"]
+mesh = SubResource("M11")
+
+[node name="Peldano_11" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.38268, 0.00000, 0.92388, 0.00000, 1.00000, 0.00000, -0.92388, 0.00000, -0.38268, -9.0715, 1.0500, 11.5869)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_11"]
+shape = SubResource("S12")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_11"]
+mesh = SubResource("M12")
+
+[node name="Peldano_12" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.55557, 0.00000, 0.83147, 0.00000, 1.00000, 0.00000, -0.83147, 0.00000, -0.55557, -9.5556, 1.1000, 11.3281)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_12"]
+shape = SubResource("S13")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_12"]
+mesh = SubResource("M13")
+
+[node name="Peldano_13" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.70711, 0.00000, 0.70711, 0.00000, 1.00000, 0.00000, -0.70711, 0.00000, -0.70711, -9.9799, 1.1500, 10.9799)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_13"]
+shape = SubResource("S14")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_13"]
+mesh = SubResource("M14")
+
+[node name="Peldano_14" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.83147, 0.00000, 0.55557, 0.00000, 1.00000, 0.00000, -0.55557, 0.00000, -0.83147, -10.3281, 1.2000, 10.5556)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_14"]
+shape = SubResource("S15")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_14"]
+mesh = SubResource("M15")
+
+[node name="Peldano_15" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.92388, 0.00000, 0.38268, 0.00000, 1.00000, 0.00000, -0.38268, 0.00000, -0.92388, -10.5869, 1.2500, 10.0715)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_15"]
+shape = SubResource("S16")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_15"]
+mesh = SubResource("M16")
+
+[node name="Peldano_16" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.98079, 0.00000, 0.19509, 0.00000, 1.00000, 0.00000, -0.19509, 0.00000, -0.98079, -10.7462, 1.3000, 9.5463)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_16"]
+shape = SubResource("S17")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_16"]
+mesh = SubResource("M17")
+
+[node name="Peldano_17" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, -0.00000, 0.00000, -1.00000, -10.8000, 1.3500, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_17"]
+shape = SubResource("S18")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_17"]
+mesh = SubResource("M18")
+
+[node name="Peldano_18" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.98079, 0.00000, -0.19509, 0.00000, 1.00000, 0.00000, 0.19509, 0.00000, -0.98079, -10.7462, 1.4000, 8.4537)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_18"]
+shape = SubResource("S19")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_18"]
+mesh = SubResource("M19")
+
+[node name="Peldano_19" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.92388, 0.00000, -0.38268, 0.00000, 1.00000, 0.00000, 0.38268, 0.00000, -0.92388, -10.5869, 1.4500, 7.9285)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_19"]
+shape = SubResource("S20")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_19"]
+mesh = SubResource("M20")
+
+[node name="Peldano_20" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.83147, 0.00000, -0.55557, 0.00000, 1.00000, 0.00000, 0.55557, 0.00000, -0.83147, -10.3281, 1.5000, 7.4444)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_20"]
+shape = SubResource("S21")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_20"]
+mesh = SubResource("M21")
+
+[node name="Peldano_21" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.70711, 0.00000, -0.70711, 0.00000, 1.00000, 0.00000, 0.70711, 0.00000, -0.70711, -9.9799, 1.5500, 7.0201)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_21"]
+shape = SubResource("S22")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_21"]
+mesh = SubResource("M22")
+
+[node name="Peldano_22" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.55557, 0.00000, -0.83147, 0.00000, 1.00000, 0.00000, 0.83147, 0.00000, -0.55557, -9.5556, 1.6000, 6.6719)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_22"]
+shape = SubResource("S23")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_22"]
+mesh = SubResource("M23")
+
+[node name="Peldano_23" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.38268, 0.00000, -0.92388, 0.00000, 1.00000, 0.00000, 0.92388, 0.00000, -0.38268, -9.0715, 1.6500, 6.4131)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_23"]
+shape = SubResource("S24")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_23"]
+mesh = SubResource("M24")
+
+[node name="Peldano_24" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.19509, 0.00000, -0.98079, 0.00000, 1.00000, 0.00000, 0.98079, 0.00000, -0.19509, -8.5463, 1.7000, 6.2538)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_24"]
+shape = SubResource("S25")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_24"]
+mesh = SubResource("M25")
+
+[node name="Peldano_25" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.00000, 0.00000, -1.00000, 0.00000, 1.00000, 0.00000, 1.00000, 0.00000, -0.00000, -8.0000, 1.7500, 6.2000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_25"]
+shape = SubResource("S26")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_25"]
+mesh = SubResource("M26")
+
+[node name="Peldano_26" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.19509, 0.00000, -0.98079, 0.00000, 1.00000, 0.00000, 0.98079, 0.00000, 0.19509, -7.4537, 1.8000, 6.2538)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_26"]
+shape = SubResource("S27")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_26"]
+mesh = SubResource("M27")
+
+[node name="Peldano_27" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.38268, 0.00000, -0.92388, 0.00000, 1.00000, 0.00000, 0.92388, 0.00000, 0.38268, -6.9285, 1.8500, 6.4131)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_27"]
+shape = SubResource("S28")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_27"]
+mesh = SubResource("M28")
+
+[node name="Peldano_28" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.55557, 0.00000, -0.83147, 0.00000, 1.00000, 0.00000, 0.83147, 0.00000, 0.55557, -6.4444, 1.9000, 6.6719)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_28"]
+shape = SubResource("S29")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_28"]
+mesh = SubResource("M29")
+
+[node name="Peldano_29" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.70711, 0.00000, -0.70711, 0.00000, 1.00000, 0.00000, 0.70711, 0.00000, 0.70711, -6.0201, 1.9500, 7.0201)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_29"]
+shape = SubResource("S30")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_29"]
+mesh = SubResource("M30")
+
+[node name="Peldano_30" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.83147, 0.00000, -0.55557, 0.00000, 1.00000, 0.00000, 0.55557, 0.00000, 0.83147, -5.6719, 2.0000, 7.4444)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_30"]
+shape = SubResource("S31")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_30"]
+mesh = SubResource("M31")
+
+[node name="Peldano_31" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.92388, 0.00000, -0.38268, 0.00000, 1.00000, 0.00000, 0.38268, 0.00000, 0.92388, -5.4131, 2.0500, 7.9285)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_31"]
+shape = SubResource("S32")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_31"]
+mesh = SubResource("M32")
+
+[node name="Peldano_32" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.98079, 0.00000, -0.19509, 0.00000, 1.00000, 0.00000, 0.19509, 0.00000, 0.98079, -5.2538, 2.1000, 8.4537)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_32"]
+shape = SubResource("S33")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_32"]
+mesh = SubResource("M33")
+
+[node name="Peldano_33" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(1.00000, 0.00000, -0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, -5.2000, 2.1500, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_33"]
+shape = SubResource("S34")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_33"]
+mesh = SubResource("M34")
+
+[node name="Peldano_34" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.98079, 0.00000, 0.19509, 0.00000, 1.00000, 0.00000, -0.19509, 0.00000, 0.98079, -5.2538, 2.2000, 9.5463)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_34"]
+shape = SubResource("S35")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_34"]
+mesh = SubResource("M35")
+
+[node name="Peldano_35" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.92388, 0.00000, 0.38268, 0.00000, 1.00000, 0.00000, -0.38268, 0.00000, 0.92388, -5.4131, 2.2500, 10.0715)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_35"]
+shape = SubResource("S36")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_35"]
+mesh = SubResource("M36")
+
+[node name="Peldano_36" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.83147, 0.00000, 0.55557, 0.00000, 1.00000, 0.00000, -0.55557, 0.00000, 0.83147, -5.6719, 2.3000, 10.5556)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_36"]
+shape = SubResource("S37")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_36"]
+mesh = SubResource("M37")
+
+[node name="Peldano_37" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.70711, 0.00000, 0.70711, 0.00000, 1.00000, 0.00000, -0.70711, 0.00000, 0.70711, -6.0201, 2.3500, 10.9799)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_37"]
+shape = SubResource("S38")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_37"]
+mesh = SubResource("M38")
+
+[node name="Peldano_38" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.55557, 0.00000, 0.83147, 0.00000, 1.00000, 0.00000, -0.83147, 0.00000, 0.55557, -6.4444, 2.4000, 11.3281)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_38"]
+shape = SubResource("S39")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_38"]
+mesh = SubResource("M39")
+
+[node name="Peldano_39" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.38268, 0.00000, 0.92388, 0.00000, 1.00000, 0.00000, -0.92388, 0.00000, 0.38268, -6.9285, 2.4500, 11.5869)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_39"]
+shape = SubResource("S40")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_39"]
+mesh = SubResource("M40")
+
+[node name="Peldano_40" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.19509, 0.00000, 0.98079, 0.00000, 1.00000, 0.00000, -0.98079, 0.00000, 0.19509, -7.4537, 2.5000, 11.7462)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_40"]
+shape = SubResource("S41")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_40"]
+mesh = SubResource("M41")
+
+[node name="Peldano_41" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.00000, 0.00000, 1.00000, 0.00000, 1.00000, 0.00000, -1.00000, 0.00000, 0.00000, -8.0000, 2.5500, 11.8000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_41"]
+shape = SubResource("S42")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_41"]
+mesh = SubResource("M42")
+
+[node name="Peldano_42" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.19509, 0.00000, 0.98079, 0.00000, 1.00000, 0.00000, -0.98079, 0.00000, -0.19509, -8.5463, 2.6000, 11.7462)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_42"]
+shape = SubResource("S43")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_42"]
+mesh = SubResource("M43")
+
+[node name="Peldano_43" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.38268, 0.00000, 0.92388, 0.00000, 1.00000, 0.00000, -0.92388, 0.00000, -0.38268, -9.0715, 2.6500, 11.5869)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_43"]
+shape = SubResource("S44")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_43"]
+mesh = SubResource("M44")
+
+[node name="Peldano_44" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.55557, 0.00000, 0.83147, 0.00000, 1.00000, 0.00000, -0.83147, 0.00000, -0.55557, -9.5556, 2.7000, 11.3281)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_44"]
+shape = SubResource("S45")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_44"]
+mesh = SubResource("M45")
+
+[node name="Peldano_45" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.70711, 0.00000, 0.70711, 0.00000, 1.00000, 0.00000, -0.70711, 0.00000, -0.70711, -9.9799, 2.7500, 10.9799)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_45"]
+shape = SubResource("S46")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_45"]
+mesh = SubResource("M46")
+
+[node name="Peldano_46" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.83147, 0.00000, 0.55557, 0.00000, 1.00000, 0.00000, -0.55557, 0.00000, -0.83147, -10.3281, 2.8000, 10.5556)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_46"]
+shape = SubResource("S47")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_46"]
+mesh = SubResource("M47")
+
+[node name="Peldano_47" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.92388, 0.00000, 0.38268, 0.00000, 1.00000, 0.00000, -0.38268, 0.00000, -0.92388, -10.5869, 2.8500, 10.0715)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_47"]
+shape = SubResource("S48")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_47"]
+mesh = SubResource("M48")
+
+[node name="Peldano_48" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.98079, 0.00000, 0.19509, 0.00000, 1.00000, 0.00000, -0.19509, 0.00000, -0.98079, -10.7462, 2.9000, 9.5463)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_48"]
+shape = SubResource("S49")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_48"]
+mesh = SubResource("M49")
+
+[node name="Peldano_49" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, -0.00000, 0.00000, -1.00000, -10.8000, 2.9500, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_49"]
+shape = SubResource("S50")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_49"]
+mesh = SubResource("M50")
+
+[node name="Peldano_50" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.98079, 0.00000, -0.19509, 0.00000, 1.00000, 0.00000, 0.19509, 0.00000, -0.98079, -10.7462, 3.0000, 8.4537)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_50"]
+shape = SubResource("S51")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_50"]
+mesh = SubResource("M51")
+
+[node name="Peldano_51" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.92388, 0.00000, -0.38268, 0.00000, 1.00000, 0.00000, 0.38268, 0.00000, -0.92388, -10.5869, 3.0500, 7.9285)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_51"]
+shape = SubResource("S52")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_51"]
+mesh = SubResource("M52")
+
+[node name="Peldano_52" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.83147, 0.00000, -0.55557, 0.00000, 1.00000, 0.00000, 0.55557, 0.00000, -0.83147, -10.3281, 3.1000, 7.4444)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_52"]
+shape = SubResource("S53")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_52"]
+mesh = SubResource("M53")
+
+[node name="Peldano_53" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.70711, 0.00000, -0.70711, 0.00000, 1.00000, 0.00000, 0.70711, 0.00000, -0.70711, -9.9799, 3.1500, 7.0201)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_53"]
+shape = SubResource("S54")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_53"]
+mesh = SubResource("M54")
+
+[node name="Peldano_54" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.55557, 0.00000, -0.83147, 0.00000, 1.00000, 0.00000, 0.83147, 0.00000, -0.55557, -9.5556, 3.2000, 6.6719)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_54"]
+shape = SubResource("S55")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_54"]
+mesh = SubResource("M55")
+
+[node name="Peldano_55" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.38268, 0.00000, -0.92388, 0.00000, 1.00000, 0.00000, 0.92388, 0.00000, -0.38268, -9.0715, 3.2500, 6.4131)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_55"]
+shape = SubResource("S56")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_55"]
+mesh = SubResource("M56")
+
+[node name="Peldano_56" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.19509, 0.00000, -0.98079, 0.00000, 1.00000, 0.00000, 0.98079, 0.00000, -0.19509, -8.5463, 3.3000, 6.2538)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_56"]
+shape = SubResource("S57")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_56"]
+mesh = SubResource("M57")
+
+[node name="Peldano_57" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(-0.00000, 0.00000, -1.00000, 0.00000, 1.00000, 0.00000, 1.00000, 0.00000, -0.00000, -8.0000, 3.3500, 6.2000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_57"]
+shape = SubResource("S58")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_57"]
+mesh = SubResource("M58")
+
+[node name="Peldano_58" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.19509, 0.00000, -0.98079, 0.00000, 1.00000, 0.00000, 0.98079, 0.00000, 0.19509, -7.4537, 3.4000, 6.2538)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_58"]
+shape = SubResource("S59")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_58"]
+mesh = SubResource("M59")
+
+[node name="Peldano_59" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.38268, 0.00000, -0.92388, 0.00000, 1.00000, 0.00000, 0.92388, 0.00000, 0.38268, -6.9285, 3.4500, 6.4131)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_59"]
+shape = SubResource("S60")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_59"]
+mesh = SubResource("M60")
+
+[node name="Peldano_60" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.55557, 0.00000, -0.83147, 0.00000, 1.00000, 0.00000, 0.83147, 0.00000, 0.55557, -6.4444, 3.5000, 6.6719)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_60"]
+shape = SubResource("S61")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_60"]
+mesh = SubResource("M61")
+
+[node name="Peldano_61" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.70711, 0.00000, -0.70711, 0.00000, 1.00000, 0.00000, 0.70711, 0.00000, 0.70711, -6.0201, 3.5500, 7.0201)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_61"]
+shape = SubResource("S62")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_61"]
+mesh = SubResource("M62")
+
+[node name="Peldano_62" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.83147, 0.00000, -0.55557, 0.00000, 1.00000, 0.00000, 0.55557, 0.00000, 0.83147, -5.6719, 3.6000, 7.4444)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_62"]
+shape = SubResource("S63")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_62"]
+mesh = SubResource("M63")
+
+[node name="Peldano_63" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.92388, 0.00000, -0.38268, 0.00000, 1.00000, 0.00000, 0.38268, 0.00000, 0.92388, -5.4131, 3.6500, 7.9285)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_63"]
+shape = SubResource("S64")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_63"]
+mesh = SubResource("M64")
+
+[node name="Peldano_64" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(0.98079, 0.00000, -0.19509, 0.00000, 1.00000, 0.00000, 0.19509, 0.00000, 0.98079, -5.2538, 3.7000, 8.4537)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Peldano_64"]
+shape = SubResource("S65")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Peldano_64"]
+mesh = SubResource("M65")
+
+[node name="Descanso" type="StaticBody3D" parent="Caracol"]
+transform = Transform3D(1.00000, 0.00000, -0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, -5.2000, 3.7000, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Caracol/Descanso"]
+shape = SubResource("S66")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caracol/Descanso"]
+mesh = SubResource("M66")
+
+[node name="TerrenoIrregular" type="Node3D" parent="."]
+
+[node name="Loma_01" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.43560, -0.14384, -0.88857, -0.17032, 0.98249, -0.07555, 0.88388, 0.11843, -0.45247, 1.5144, 0.3142, 2.3232)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_01"]
+shape = SubResource("S67")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_01"]
+mesh = SubResource("M67")
+
+[node name="Loma_02" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.22774, -0.14393, -0.96303, -0.12130, 0.97712, -0.17472, 0.96614, 0.15660, 0.20507, 1.3363, 0.3318, 4.8307)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_02"]
+shape = SubResource("S68")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_02"]
+mesh = SubResource("M68")
+
+[node name="Loma_03" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.39744, 0.15096, -0.90512, -0.02661, 0.98406, 0.17581, 0.91724, 0.09396, -0.38709, 1.5308, 0.2997, 7.0905)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_03"]
+shape = SubResource("S69")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_03"]
+mesh = SubResource("M69")
+
+[node name="Loma_04" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.59818, -0.11976, -0.79236, 0.16935, 0.98533, -0.02108, 0.78327, -0.12158, 0.60968, 3.5471, 0.2892, 2.6265)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_04"]
+shape = SubResource("S70")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_04"]
+mesh = SubResource("M70")
+
+[node name="Loma_05" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.42246, -0.04335, -0.90534, 0.00684, 0.99867, -0.05101, 0.90636, -0.02774, -0.42160, 3.7191, 0.2876, 4.5238)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_05"]
+shape = SubResource("S71")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_05"]
+mesh = SubResource("M71")
+
+[node name="Loma_06" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.22196, -0.06303, -0.97302, 0.07387, 0.99613, -0.04767, 0.97225, -0.06130, 0.22576, 3.7342, 0.3091, 6.8199)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_06"]
+shape = SubResource("S72")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_06"]
+mesh = SubResource("M72")
+
+[node name="Loma_07" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.72132, 0.02524, -0.69214, 0.02865, 0.99739, 0.06623, 0.69200, -0.06761, 0.71872, 5.9101, 0.3773, 2.5918)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_07"]
+shape = SubResource("S73")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_07"]
+mesh = SubResource("M73")
+
+[node name="Loma_08" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.93006, -0.02746, -0.36637, 0.08481, 0.98632, 0.14135, 0.35748, -0.16254, 0.91967, 6.0029, 0.3006, 4.6956)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_08"]
+shape = SubResource("S74")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_08"]
+mesh = SubResource("M74")
+
+[node name="Loma_09" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.73672, 0.02479, -0.67575, 0.05689, 0.99806, -0.02541, 0.67380, -0.05716, -0.73670, 6.0502, 0.2888, 6.9781)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_09"]
+shape = SubResource("S75")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_09"]
+mesh = SubResource("M75")
+
+[node name="Loma_10" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.14005, 0.11529, -0.98341, 0.01082, 0.99296, 0.11795, 0.99008, -0.02716, 0.13782, 8.2779, 0.3413, 2.5657)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_10"]
+shape = SubResource("S76")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_10"]
+mesh = SubResource("M76")
+
+[node name="Loma_11" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.42854, 0.16648, -0.88805, 0.13470, 0.98367, 0.11940, 0.89342, -0.06845, -0.44397, 8.2288, 0.2891, 4.6543)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_11"]
+shape = SubResource("S77")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_11"]
+mesh = SubResource("M77")
+
+[node name="Loma_12" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.13808, -0.11114, -0.98417, -0.14581, 0.98057, -0.13120, 0.97963, 0.16162, 0.11919, 7.9468, 0.3264, 7.0073)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_12"]
+shape = SubResource("S78")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_12"]
+mesh = SubResource("M78")
+
+[node name="Loma_13" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.32367, 0.12548, -0.93781, -0.12245, 0.98839, 0.08999, 0.93821, 0.08571, 0.33528, 10.1322, 0.3028, 2.5198)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_13"]
+shape = SubResource("S79")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_13"]
+mesh = SubResource("M79")
+
+[node name="Loma_14" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.91032, -0.07482, -0.40708, -0.02355, 0.99129, -0.12954, 0.41323, -0.10834, -0.90416, 10.2661, 0.3586, 4.8537)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_14"]
+shape = SubResource("S80")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_14"]
+mesh = SubResource("M80")
+
+[node name="Loma_15" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.85291, -0.09037, -0.51417, 0.01546, 0.98884, -0.14815, 0.52182, 0.11841, 0.84480, 10.1933, 0.3709, 6.9356)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_15"]
+shape = SubResource("S81")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_15"]
+mesh = SubResource("M81")
+
+[node name="Loma_16" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.25951, -0.04381, -0.96475, -0.15099, 0.98485, -0.08534, 0.95387, 0.16781, 0.24896, 12.5265, 0.3387, 2.5762)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_16"]
+shape = SubResource("S82")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_16"]
+mesh = SubResource("M82")
+
+[node name="Loma_17" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(-0.52391, -0.15094, -0.83829, -0.04564, 0.98773, -0.14932, 0.85055, -0.03997, -0.52437, 12.6598, 0.3502, 4.8498)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_17"]
+shape = SubResource("S83")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_17"]
+mesh = SubResource("M83")
+
+[node name="Loma_18" type="StaticBody3D" parent="TerrenoIrregular"]
+transform = Transform3D(0.31450, -0.13430, -0.93971, 0.00759, 0.99027, -0.13899, 0.94923, 0.03658, 0.31246, 12.5537, 0.3369, 6.7269)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TerrenoIrregular/Loma_18"]
+shape = SubResource("S84")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="TerrenoIrregular/Loma_18"]
+mesh = SubResource("M84")
+
+[node name="Obstaculos" type="Node3D" parent="."]
+
+[node name="Tope_1" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 3.0000, 0.5200, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Tope_1"]
+shape = SubResource("S85")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Tope_1"]
+mesh = SubResource("M85")
+
+[node name="Tope_2" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 3.0000, 0.5300, 9.9000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Tope_2"]
+shape = SubResource("S86")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Tope_2"]
+mesh = SubResource("M86")
+
+[node name="Tope_3" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 3.0000, 0.5400, 10.8000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Tope_3"]
+shape = SubResource("S87")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Tope_3"]
+mesh = SubResource("M87")
+
+[node name="Tope_4" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 0.00000, 0.00000, 0.00000, 1.00000, 3.0000, 0.5500, 11.7000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Tope_4"]
+shape = SubResource("S88")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Tope_4"]
+mesh = SubResource("M88")
+
+[node name="Piedra_1" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.88378, 0.00000, -0.46790, 0.00000, 1.00000, 0.00000, 0.46790, 0.00000, 0.88378, 6.5000, 0.5302, 9.0000)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Piedra_1"]
+shape = SubResource("S89")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Piedra_1"]
+mesh = SubResource("M89")
+
+[node name="Piedra_2" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.98759, 0.00000, -0.15707, 0.00000, 1.00000, 0.00000, 0.15707, 0.00000, 0.98759, 7.6000, 0.5335, 9.6745)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Piedra_2"]
+shape = SubResource("S90")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Piedra_2"]
+mesh = SubResource("M90")
+
+[node name="Piedra_3" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.89879, 0.00000, -0.43838, 0.00000, 1.00000, 0.00000, 0.43838, 0.00000, 0.89879, 8.7000, 0.5250, 9.3609)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Piedra_3"]
+shape = SubResource("S91")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Piedra_3"]
+mesh = SubResource("M91")
+
+[node name="Piedra_4" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.46175, 0.00000, -0.88701, 0.00000, 1.00000, 0.00000, 0.88701, 0.00000, 0.46175, 9.8000, 0.5275, 8.5186)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Piedra_4"]
+shape = SubResource("S92")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Piedra_4"]
+mesh = SubResource("M92")
+
+[node name="Piedra_5" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(-0.86852, 0.00000, -0.49566, 0.00000, 1.00000, 0.00000, 0.49566, 0.00000, -0.86852, 10.9000, 0.5256, 8.3816)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/Piedra_5"]
+shape = SubResource("S93")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/Piedra_5"]
+mesh = SubResource("M93")
+
+[node name="PiedraEscalon_1" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99823, 0.00000, 0.05942, 0.00000, 1.00000, 0.00000, -0.05942, 0.00000, 0.99823, 13.2000, 0.5330, 10.1325)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_1"]
+shape = SubResource("S94")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_1"]
+mesh = SubResource("M94")
+
+[node name="PiedraEscalon_2" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99591, 0.00000, 0.09039, 0.00000, 1.00000, 0.00000, -0.09039, 0.00000, 0.99591, 13.2000, 0.5703, 10.6510)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_2"]
+shape = SubResource("S95")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_2"]
+mesh = SubResource("M95")
+
+[node name="PiedraEscalon_3" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99997, 0.00000, 0.00816, 0.00000, 1.00000, 0.00000, -0.00816, 0.00000, 0.99997, 13.2000, 0.6201, 11.2246)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_3"]
+shape = SubResource("S96")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_3"]
+mesh = SubResource("M96")
+
+[node name="PiedraEscalon_4" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99545, 0.00000, 0.09533, 0.00000, 1.00000, 0.00000, -0.09533, 0.00000, 0.99545, 13.2000, 0.6518, 11.7958)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_4"]
+shape = SubResource("S97")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_4"]
+mesh = SubResource("M97")
+
+[node name="PiedraEscalon_5" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99689, 0.00000, -0.07884, 0.00000, 1.00000, 0.00000, 0.07884, 0.00000, 0.99689, 13.2000, 0.6871, 12.2975)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_5"]
+shape = SubResource("S98")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_5"]
+mesh = SubResource("M98")
+
+[node name="PiedraEscalon_6" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99415, 0.00000, -0.10803, 0.00000, 1.00000, 0.00000, 0.10803, 0.00000, 0.99415, 13.2000, 0.7176, 12.7502)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_6"]
+shape = SubResource("S99")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_6"]
+mesh = SubResource("M99")
+
+[node name="PiedraEscalon_7" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99995, 0.00000, -0.01036, 0.00000, 1.00000, 0.00000, 0.01036, 0.00000, 0.99995, 13.2000, 0.7505, 13.2449)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_7"]
+shape = SubResource("S100")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_7"]
+mesh = SubResource("M100")
+
+[node name="PiedraEscalon_8" type="StaticBody3D" parent="Obstaculos"]
+transform = Transform3D(0.99341, 0.00000, -0.11459, 0.00000, 1.00000, 0.00000, 0.11459, 0.00000, 0.99341, 13.2000, 0.7911, 13.6969)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstaculos/PiedraEscalon_8"]
+shape = SubResource("S101")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstaculos/PiedraEscalon_8"]
+mesh = SubResource("M101")

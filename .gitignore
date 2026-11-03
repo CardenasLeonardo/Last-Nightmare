@@ -19,3 +19,6 @@ data_*/
 
 # Third-party plugin (1.5 GB, reinstall locally)
 addons/ziva_agent/
+
+# Referencias de terceros (clonadas localmente, no se versionan)
+_referencias/
